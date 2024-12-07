@@ -8,7 +8,7 @@ export default function CareersModule() {
        />
          </div>
         <div class="career-content">
-        <div>
+        <div class="career1">
         We are occasionally seeking freelancers with 0 to 3 years of experience for the following roles,
         available as volunteer, internship, part-time, or full-time positions:
         </div>

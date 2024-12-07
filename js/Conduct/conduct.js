@@ -3,7 +3,7 @@ export default function ConductModule() {
     `<div class=" career">
       <div class="conduct">
         <h3>CONTACT US </h3>
-        <p>
+        <p class="career1">
           Thank you for your interest in PutFyre. We are dedicated to delivering
           innovative solutions that drive success for our clients. We appreciate
           your inquiries and look forward to the opportunity to connect with you
