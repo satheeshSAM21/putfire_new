@@ -52,21 +52,21 @@ export default function ServicesModule() {
     service_module &&
     service_module.map((item, i) => {
       return ` 
-          <div key=${i} class="services">
-            <div class="module-title">${item.title}</div>
-           
-           <div class="module-flexes">
-              <div class="services-img">
-                <img src="${item.image}" alt="pic" class="module-img"/>
-              </div>
-              <div>
-              <div class="module-contented">${item.content}</div>
-              ${
-                item.content2
-                  ? `  <div class="module-contented box">${item.content2}</div>`
-                  : ""
-              }
-              </div>
+          <div key=${i} class="main-module-head">
+            <div class="module-title">${item.title}</div>          
+              <div class="module-flex">
+            <div class="col_left">
+              <img src="${item.image}" alt="pic" class="module-img"/>
+            </div>
+            <div class="col_right">
+            <div class="module-content">${item.content}</div>
+
+              ${item.content2 ? (
+        `    <div class="module-content mt">${item.content2}</div>`
+
+              ):""}
+            </div>
+          </div>
             </div>`;
     })
   );

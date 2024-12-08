@@ -19,7 +19,7 @@ console.log(about);
 
 // Add event listeners to buttons
 about.addEventListener("click", function () {
-  console.log("safsdfs", about);
+
   changeModule(AboutModule());
   about.style.color = "#7b2587";
   services.style.color = "#000000";
