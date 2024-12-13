@@ -36,7 +36,7 @@ body {
 }
 /* Head */
 .header {
-  padding: 10px 30px;
+  padding: 6px 30px 0px 30px;
   position: sticky;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
@@ -90,10 +90,36 @@ body {
 .ship-container div img {
   width: 300px;
 }
+.content p{
+  padding: 10px !important;
+  margin: 10px !important;
+}
 .ship-container .content {
-  width: 20px;
-  font-size: 4.375rem;
-  line-height: 6rem;
+  width: 300px;
+
+ 
+  /* font-size: 5.3rem; */
+  /* line-height: 6rem; */
+}
+.ig{
+  font-size: 5.5rem !important;
+
+
+}
+.you{
+  font-size: 6.3rem !important;
+
+
+}
+.ima{
+  font-size: 6.3rem !important;
+
+
+}
+.nat{
+  font-size: 4rem !important;
+
+
 }
 .home-content {
   color: #000000;
